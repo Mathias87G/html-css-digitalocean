@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" id="css/fonts-maven-css" href="https://fonts.googleapis.com/css?family=Maven+Pro%3A400%2C500%2C600%2C700&amp;ver=5.3.2" type="text/css" media="all">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
@@ -10,6 +11,82 @@
     <title>DigitalOcean</title>
   </head>
   <body>
+    <header>
+
+      <!-- Nav -->
+      <nav class="navbar navbar-default navbar-fixed-top text-capitalize do_menu">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <img src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="Logo">
+            </a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav menu_do">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">products <span class="caret"></span></a>
+              </li>
+              <li><a href="#">marketplace</a></li>
+              <li><a href="#">customers</a></li>
+              <li><a href="#">partners</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">community <span class="caret"></span></a>
+              </li>
+              <li><a href="#">pricing</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="#" id="signup"><button class="signup" type="button">Sign Up</button></a>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div>
+      </nav>
+      <!-- Jumbotron Banner -->
+      <div class="jumbotron do_banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-7">
+              <div class="welcome">
+                <h1>Welcome to the developer cloud</h1>
+                <p>We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-1 col-md-4">
+              <div class="card-form text-center">
+                <div class="deploy">Deploy in seconds</div>
+                <form class="do_reg">
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="name" placeholder="First Name">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <button type="button" class="btn btn-default">Sign up with email</button>
+                </form>
+                <form class="form-inline do_signup">
+                  <button type="button" class="btn btn-default"><i class="fab fa-google"></i> Sign up with Google</button>
+                  <button type="button" class="btn btn-default"><i class="fab fa-github"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
   </body>
 </html>

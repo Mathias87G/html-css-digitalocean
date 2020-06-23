@@ -1,0 +1,102 @@
+.navbar-brand img {
+  height: 28px;
+}
+
+.do_menu {
+  background-color: white;
+  border: none;
+  height: 70px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.navbar-brand {
+    height: 70px;
+    padding: 20px 15px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #03379c;
+  font-size: 14px;
+  font-weight: bolder;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+#signup {
+  padding-top: 16px;
+}
+
+.navbar-right li {
+  height: 70px;
+}
+
+.signup {
+  background-color: white;
+  box-shadow: none;
+  border: 1px solid #0160ff;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* banner */
+
+.deploy {
+  background-color: #f3f5f9;
+  color: #031b4e;
+  font-size: 18px;
+  font-weight: bolder;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 30px 0;
+}
+
+.do_reg {
+  background-color: white;
+  padding: 30px 50px;;
+  border-bottom: 1px solid #f3f5f9;
+}
+
+.do_reg button {
+  background-color: #0160ff;
+  color: white;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.do_signup {
+  background-color: white;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 30px 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.do_signup button {
+  background-color: white;
+  color: #0160ff;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #0160ff;
+}
+
+.do_banner {
+  background-color: #0160ff;
+  margin-top: 70px;
+  margin-bottom: 0px;
+  padding: 150px 0;
+  color: white;
+  font-family: 'Maven Pro', sans-serif;
+  position: relative;
+}
+
+h1 {
+  padding: 50px 0 20px;
+}
