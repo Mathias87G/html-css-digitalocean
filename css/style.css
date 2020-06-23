@@ -30,6 +30,14 @@
   padding-top: 16px;
 }
 
+@media screen and (max-width:991px) {
+
+  #signup {
+    display: none;
+  }
+  
+}
+
 .navbar-right li {
   height: 70px;
 }
@@ -119,4 +127,24 @@ h1 {
 
 .rw_do_brands {
   padding: 20px 0;
+}
+
+/* Section Scale */
+
+.scale {
+  padding: 100px 0;
+}
+
+
+
+.scale ul li {
+  list-style: none;
+  border-left: 1px solid grey;
+  padding-left: 5px;
+}
+
+.do_scale h4 {
+  color: #031b4e;
+  font-weight: bold;
+
 }
