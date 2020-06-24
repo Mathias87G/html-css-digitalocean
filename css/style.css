@@ -35,7 +35,7 @@
   #signup {
     display: none;
   }
-  
+
 }
 
 .navbar-right li {
@@ -109,11 +109,16 @@ h1 {
   padding: 50px 0 20px;
 }
 
+h2 {
+  font-size: 40px;
+}
+
 /* Section Brands */
 
 .do_brands {
   background-color: #f3f5f9;
   padding: 50px 0;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .do_brands h4 {
@@ -133,9 +138,12 @@ h1 {
 
 .scale {
   padding: 100px 0;
+  font-family: 'Maven Pro', sans-serif;
 }
 
-
+.itd_scale {
+  padding-bottom: 50px;
+}
 
 .scale ul li {
   list-style: none;
@@ -143,8 +151,221 @@ h1 {
   padding-left: 5px;
 }
 
-.do_scale h4 {
+.scale h2, .do_scale h4 {
   color: #031b4e;
   font-weight: bold;
+}
 
+.scale p {
+  color: #896992;
+  font-weight: lighter;
+  font-size: 22px
+}
+
+.do_scale p {
+  color: #5b6987;
+  font-size: 16px;
+}
+
+.do_scale_item {
+  padding-bottom: 20px;
+}
+
+.do_scale_item img {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width:767px) {
+
+  .do_scale {
+    text-align: center;
+  }
+
+}
+
+/* Section designed */
+
+.designed {
+  font-family: 'Maven Pro', sans-serif;
+  background-color: #f3f5f9;
+  padding: 100px 0;
+}
+
+.designed h2 {
+  color: #031b4e;
+  font-weight: bolder;
+}
+
+.designed h3 {
+  color: #211b4e;
+  font-weight: lighter;
+}
+
+.designed img {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.designed p {
+  color: #5b6987;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.circles span {
+  color: #0160ff;
+  font-size: 10px;
+  padding: 0 5px;
+  font-weight: bolder;
+}
+
+/* section built */
+
+.built {
+  padding: 100px 0;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.built h2, .built h4 {
+  color: #031b4e;
+  font-weight: bold;
+}
+
+.built_item {
+  padding-top: 30px;
+}
+
+.built_item h4 {
+  padding-top: 10px;
+}
+
+.built_item a {
+  font-weight: bold;
+  color: #0160ff;
+}
+
+.built_item p {
+  padding: 10px 0;
+  color: #5b6987;
+  font-size: 16px;
+}
+
+@media screen and (max-width:991px) {
+
+  .built_item {
+    text-align: center;
+  }
+
+}
+
+/* Section speed */
+
+.speed {
+  background: #031b4e url(https://images.prismic.io/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg?auto=compress,format);
+  padding: 100px 0;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.service {
+  color: white;
+}
+
+.speed h3 {
+  font-weight: lighter;
+}
+
+.spd_world {
+  padding-top: 50px;
+}
+
+.cty_spd {
+  border-bottom: 1px solid #384b73;
+  padding: 12px 20px;;
+}
+
+.cty_spd:last-child {
+  border-bottom: none;
+}
+
+.cty_spd a {
+  color: #00d7d2;
+  float: right;
+  padding-right: 10px;
+}
+
+.cty_abbrev {
+  color: white;
+  font-size: 12px;
+  font-weight: bolder;
+  padding-right: 15px;
+}
+
+.cty {
+  color: #98a2b1;
+  font-weight: lighter;
+}
+
+@media screen and (max-width:991px) {
+
+  .cty_spd:nth-child(12) {
+    border-bottom: 1px solid #384b73;
+  }
+
+}
+
+/* Section develop */
+
+.develop {
+  padding: 100px 0;
+  font-family: 'Maven Pro', sans-serif;
+  background-color: #f3f5f9;
+}
+
+.develop h2 {
+  color: #031b4e;
+  font-weight: bolder;
+}
+
+.develop h3 {
+  color: #211b4e;
+  font-weight: lighter;
+  padding-bottom: 50px;
+}
+
+.citation {
+  padding-top: 50px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.citation img {
+  width: 200px;
+}
+
+.citation p {
+  font-size: 20px;
+  padding: 50px 0;
+  color: #5b6987;
+  font-weight: lighter;
+}
+
+.citation p i {
+  color: #c0c6d3
+}
+
+.rick {
+  color: #5b6987;
+}
+
+.rick h5 {
+  font-size: 16px;
+}
+
+.rick p {
+  padding-top: 0px;
+  font-size: 12px;
+}
+
+.crc_dvl {
+  padding-top: 50px;
 }
