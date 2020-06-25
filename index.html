@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarketplace.digitalocean.com%2Fstatic%2Ffavicon.ico&f=1&nofb=1">
     <title>DigitalOcean</title>
   </head>
   <body>
@@ -27,7 +28,6 @@
               <img src="https://images.prismic.io/www-static/49aa0a09-06d2-4bba-ad20-4bcbe56ac507_logo.png?auto=compress,format" alt="Logo">
             </a>
           </div>
-
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav menu_do">
@@ -42,7 +42,6 @@
               </li>
               <li><a href="#">pricing</a></li>
             </ul>
-
             <ul class="nav navbar-nav navbar-right">
               <li>
                 <a href="#" id="signup"><button class="signup" type="button">Sign Up</button></a>
@@ -61,7 +60,7 @@
                 <p>We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</p>
               </div>
             </div>
-            <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-1 col-md-4">
+            <div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-1 col-md-4">
               <div class="card-form text-center">
                 <div class="deploy">Deploy in seconds</div>
                 <form class="do_reg">
@@ -80,6 +79,7 @@
                   <button type="button" class="btn btn-default"><i class="fab fa-google"></i> Sign up with Google</button>
                   <button type="button" class="btn btn-default"><i class="fab fa-github"></i></button>
                 </form>
+                <div class="signign_up">By signing up you agree to the Terms of Service.</div>
               </div>
             </div>
           </div>
@@ -125,17 +125,17 @@
         <div class="row">
           <div class="col-sm-2 col-md-2">
             <!-- Da Rivedere! -->
-            <div class="col-xs-12">
-              <ul class="text-capitalize text-left">
-                <li>deploy</li>
-                <li>scale</li>
-                <li>store</li>
-                <li>secure</li>
-                <li>monitor</li>
-              </ul>
+            <div class="col-xs-12 text-capitalize">
+              <div class="col-xs-offset-1 col-xs-2 col-sm-offset-0 col-sm-12 scale_list"> deploy</div>
+              <div class="col-xs-2 col-sm-offset-0 col-sm-12 scale_list"> scale</div>
+              <div class="col-xs-2 col-sm-offset-0 col-sm-12 scale_list"> store</div>
+              <div class="col-xs-2 col-sm-offset-0 col-sm-12 scale_list"> secure</div>
+              <div class="col-xs-2 col-sm-offset-0 col-sm-12 scale_list"> monitor</div>
+
+
+
             </div>
           </div>
-
           <div class="col-sm-offset-1 col-sm-9 col-md-offset-1 col-md-9 do_scale" >
             <div class="col-xs-12 col-sm-6 col-md-6  do_scale_item">
               <img src="https://images.prismic.io/www-static/16ae92b4-6939-446c-b6a3-0ffec01cdc14_kublogoicon.svg?auto=compress,format" alt="">
@@ -161,7 +161,7 @@
         </div>
       </div>
     </section>
-
+    <!-- section designed -->
     <section class="designed">
       <div class="container">
         <div class="row">
@@ -223,7 +223,6 @@
           </div>
         </div>
         <div class="row spd_world">
-
           <div class="col-xs-offset-2 col-xs-8 col-md-offset-0 col-md-6 cty_spd">
             <div class="uty">
               <span class="cty_abbrev">AMS2</span>
@@ -231,7 +230,6 @@
               <a href="#">Test Speed > </a>
             </div>
           </div>
-
           <div class="col-xs-offset-2 col-xs-8 col-md-offset-0 col-md-6 cty_spd">
             <div class="uty">
               <span class="cty_abbrev">AMS3</span>
@@ -356,7 +354,7 @@
     </section>
     <section class="lists">
       <div class="container">
-        <div class="row">
+        <div class="row list_col_row">
           <div class="col-xs-6 col-md-offset-1 col-md-2 list_col">
             <h5>Company</h5>
             <ul>
@@ -429,17 +427,21 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6">
+          <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 footer_left">
             <img src="https://images.prismic.io/www-static%2F903fd83b-8963-42c2-baf6-44f4d6bb83f2_digitalocean-logo-mark.svg?auto=compress,format" alt="">
             <span>&#169; 2020 DigitalOcean, LLC. All rights reserved.</span>
-
           </div>
-          <div class="col-xs-offset-2 col-xs-8">
-
+          <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6 footer_right">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-dev"></i>
+            <i class="fab fa-btc"></i>
           </div>
         </div>
       </div>
     </footer>
-
   </body>
 </html>
